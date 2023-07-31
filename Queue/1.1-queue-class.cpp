@@ -25,6 +25,7 @@ int main(){
     q.push(3);
     q.push(5);
     q.push(7);
+    // 1 3 5 7
     cout << q.empty() << endl;
     cout << "first element: " << q.front() << endl;
     cout << "last element: " << q.back() << endl;
@@ -32,6 +33,7 @@ int main(){
     print(q);
 
     q.pop(); //like a bank queue, first in, first out.
+    // 3 5 7
     cout << "first element: " << q.front() << endl;
     cout << "size: " << q.size() << endl;
     print(q);
